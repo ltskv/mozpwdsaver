@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Mozpwdsaver",
+  "version": "0.1b",
+
+  "description": "Adds a well-formed login form in the top right corner.",
+  "icons": {
+    "48": "icons/pwd-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "45.0",
+      "id": "mozpwdsaver@ltskv"
+    }
+  },
+
+  "permissions": ["activeTab"],
+
+  "background": {
+      "scripts": ["bg.js"]
+  },
+
+  "browser_action": {
+      "default_title": "Save password!",
+      "default_icon": {
+          "48": "icons/pwd-48.png"
+      }
+  }
+}
