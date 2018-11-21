@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Mozpwdsaver",
-  "version": "0.1b",
+  "version": "0.1.1b",
 
   "description": "Adds a well-formed login form in the top right corner.",
   "icons": {
