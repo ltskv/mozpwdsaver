@@ -1,5 +1,8 @@
 # macOS
 .DS_Store
 
+# Build
+web-ext-artifacts/
+
 # vim
 .*.sw*
